@@ -1,0 +1,26 @@
+{
+  "name": "Euler",
+  "version": "0.0.0",
+  "description": "A collection of generic computer science problems, solved using javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/namccool/Euler.git"
+  },
+  "keywords": [
+    "euler"
+  ],
+  "author": "namccool",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/namccool/Euler/issues"
+  },
+  "homepage": "https://github.com/namccool/Euler",
+  "devDependencies": {
+    "mocha": "^1.19.0",
+    "should": "^3.3.2"
+  }
+}
