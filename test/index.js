@@ -19,10 +19,10 @@ describe("Problem 2", function(){
   })
 })
 
-describe("Problem 3", function(){
-  var problem3 = require("../problem3/incomplete.js");
-  var answer = 6857;
+describe("Problem 4", function(){
+  var problem4 = require("../problem4/complete.js");
+  var answer = 906609;
   it("should work", function(){
-    problem3(600851475143).should.equal(answer);
+    problem4().should.equal(answer);
   })
 })
