@@ -28,7 +28,7 @@ describe("Problem 4", function(){
 })
 
 describe("Problem 6", function(){
-  var problem6 = require("../problem6/complete.js");
+  var problem6 = require("../problem6/completed.js");
   var answer = 25164150;
   it("should work", function(){
     problem6().should.equal(answer);
