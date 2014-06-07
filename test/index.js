@@ -34,3 +34,11 @@ describe("Problem 6", function(){
     problem6().should.equal(answer);
   })
 })
+
+describe("Problem 7", function(){
+  var problem7 = require("../problem7/completed.js");
+  var answer = 104743;
+  it("should work", function(){
+    problem7().should.equal(answer);
+  })
+})
