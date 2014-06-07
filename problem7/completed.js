@@ -22,15 +22,11 @@ function thisPrime(index){
       return true;
     }
 
-  function pushPrimes() {
-    for (var j = 1; j <= max; j++){
-      if (isPrime(j))
-        primes.push(j);
-      }
-    }
+  for (var j = 1; j <= max; j++){
+    isPrime(j) && primes.push(j);
+  }
 
- pushPrimes();
- return primes[index];
- }
+  return primes[index];
+}
 
 console.log(thisPrime(10000));
