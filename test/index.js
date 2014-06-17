@@ -50,3 +50,27 @@ describe("Problem 7", function(){
     problem7().should.equal(answer);
   })
 })
+
+describe("Problem 8", function(){
+  var problem8 = require("../problem8/completed.js");
+  var answer = 40824;
+  it("should work", function(){
+    problem8().should.equal(answer);
+  })
+})
+
+describe("Problem 9", function(){
+  var problem9 = require("../problem9/completed.js");
+  var answer = 31875000;
+  it("should work", function(){
+    problem9().should.equal(answer);
+  })
+})
+
+describe("Problem 10", function(){
+  var problem10 = require("../problem10/completed.js");
+  var answer = 143042032116;
+  it("should work", function(){
+    problem10().should.equal(answer);
+  })
+})
