@@ -7,12 +7,12 @@ What is the largest prime factor of the number 600851475143 ?
 
 module.exports = largestPrimeFactor;
 
-function isPrime(num) {
+function isPrime(num){
   if (num < 2) return false;
-  for (var i = 2; i < num; i++) {
-    if (num%i==0)
-      return false;
-    }
+  if (num === 2) return true;
+  for (var i = 2; i <= Math.sqrt(num); i++){
+    if (num%i==0) return false;
+  }
   return true;
 }
 

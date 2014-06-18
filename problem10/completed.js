@@ -7,11 +7,11 @@ Find the sum of all the primes below two million.
 */
 module.exports = sumOfPrimes;
 
-function isPrime(num) {
+function isPrime(num){
   if (num < 2) return false;
   if (num === 2) return true;
-  for (var i = 2; i < Math.sqrt(num); i++) {
-    if (num%i==0) return false;
+  for (var i = 2; i < Math.sqrt(num); i++){
+    if (num % i == 0) return false;
   }
   return true;
 }
