@@ -10,6 +10,7 @@ There exists exactly one Pythagorean triplet for which a + b + c = 1000.
 Find the product abc.
 
 */
+module.exports = pythagoreanTriplet;
 
 function pythagoreanTriplet(){
   for (var c = 1; c < 1000; c+=1){

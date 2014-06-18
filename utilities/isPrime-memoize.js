@@ -7,10 +7,10 @@ function isPrime(num){
     return primeM[num];
   }
 
-  if (num < 2){ result = false; }
+  if (num < 2) result = false;
 
   for (var i = 2; i < num; i++){
-    if (num%i==0) result = false;
+    if (num % i == 0) result = false;
   }
 
   primeM[num] = result;

@@ -8,13 +8,23 @@ What is the 10,001st prime number?
 */
 module.exports = thisPrime;
 
+var primeM = [];
+
 function isPrime(num){
-  if (num < 2) return false;
-  if (num === 2) return true;
-  for (var i = 2; i <= Math.sqrt(num); i++){
-    if (num%i==0) return false;
+  var result = true;
+
+  if (typeof primeM[num] !== "undefined"){
+    return primeM[num];
   }
-  return true;
+
+  if (num < 2) result = false;
+
+  for (var i = 2; i <= Math.sqrt(num); i++){
+    if (num % i == 0) result = false;
+  }
+
+  primeM[num] = result;
+  return result;
 }
 
 function thisPrime(index){

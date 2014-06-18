@@ -2,8 +2,8 @@ var should = require("should");
 
 
 describe("Problem 1", function(){
-  var problem1recursive = require("../problem1/complete-recursive.js");
-  var problem1loop = require("../problem1/complete.js");
+  var problem1recursive = require("../problem1/completed-recursive.js");
+  var problem1loop = require("../problem1/completed.js");
   var answer = 233168;
   it("should work", function(){
     problem1recursive(1000).should.equal(answer);
@@ -12,7 +12,7 @@ describe("Problem 1", function(){
 })
 
 describe("Problem 2", function(){
-  var problem2 = require("../problem2/complete.js");
+  var problem2 = require("../problem2/completed.js");
   var answer = 4613732;
   it("should work", function(){
     problem2().should.equal(answer);
@@ -20,15 +20,15 @@ describe("Problem 2", function(){
 })
 
 describe("Problem 3", function(){
-  var problem3 = require("../problem3/complete.js");
+  var problem3 = require("../problem3/completed.js");
   var answer = 6857;
   it("should work", function(){
-    problem3().should.equal(answer);
+    problem3(600851475143).should.equal(answer);
   })
 })
 
 describe("Problem 4", function(){
-  var problem4 = require("../problem4/complete.js");
+  var problem4 = require("../problem4/completed.js");
   var answer = 906609;
   it("should work", function(){
     problem4().should.equal(answer);
@@ -47,7 +47,7 @@ describe("Problem 7", function(){
   var problem7 = require("../problem7/completed.js");
   var answer = 104743;
   it("should work", function(){
-    problem7().should.equal(answer);
+    problem7(10000).should.equal(answer);
   })
 })
 
