@@ -35,6 +35,14 @@ describe("Problem 4", function(){
   })
 })
 
+describe("Problem 5", function(){
+  var problem5 = require("../problem5/completed.js");
+  var answer = 232792560;
+  it("should work", function(){
+    problem5().should.equal(answer);
+  })
+})
+
 describe("Problem 6", function(){
   var problem6 = require("../problem6/completed.js");
   var answer = 25164150;
