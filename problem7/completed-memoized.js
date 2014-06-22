@@ -40,3 +40,5 @@ function thisPrime(index){
 }
 
 console.log(thisPrime(10000));
+
+// Answer: 104743

@@ -28,3 +28,5 @@ function fibonacciSequence() {
 }
 
 fibonacciSequence();
+
+// Answer: 4613732

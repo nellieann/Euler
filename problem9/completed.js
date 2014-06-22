@@ -25,3 +25,5 @@ function pythagoreanTriplet(){
 }
 
 console.log(pythagoreanTriplet());
+
+// Answer: 31875000

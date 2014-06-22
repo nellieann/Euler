@@ -18,3 +18,5 @@ function largestPalindrome(){
 };
 
 largestPalindrome();
+
+// Answer: 906609

@@ -27,3 +27,5 @@ function largestPrimeFactor(num){
 }
 
 console.log(largestPrimeFactor(600851475143));
+
+// Answer: 6857

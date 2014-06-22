@@ -39,3 +39,5 @@ function digitsProduct(){
  return result;
 }
 console.log(digitsProduct(number));
+
+// Answer: 40824

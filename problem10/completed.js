@@ -25,3 +25,5 @@ function sumOfPrimes(){
 }
 
 console.log(sumOfPrimes());
+
+// Answer: 143042032116

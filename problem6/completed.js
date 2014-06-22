@@ -26,3 +26,5 @@ function differenceBetween(){
   return Math.pow(sumOfNumbers, 2) - sumOfSquares;
 }
 console.log(differenceBetween());
+
+// Answer: 25164150
